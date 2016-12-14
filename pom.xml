@@ -97,7 +97,9 @@
                                 <exclude>**/**/service/**.java</exclude>
                                 <exclude>**/**/base/**.java</exclude>
                             </excludes>
-                            <additionalClasspathElements>${basedir}/src/test/end_2_end/*</additionalClasspathElements>
+                            <additionalClasspathElements>
+                                <additionalClasspathElement>${basedir}/src/test/end_2_end/*</additionalClasspathElement>
+                            </additionalClasspathElements>
                         </configuration>
                     </execution>
                 </executions>
